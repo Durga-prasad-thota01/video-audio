@@ -67,7 +67,7 @@ class App extends React.Component {
        }
 
     const constraints ={
-      // audio:true,
+      audio:true,
       video:true
     
     }
@@ -134,18 +134,17 @@ class App extends React.Component {
 
 
   render() {
-  
-    return (
+     return (
       <div>
          <video
-         style={{width:240,height:240,margin:5,backgroundColor:"black"}}
-          ref={this.localVideoref}
-           autoPlay></video>
+          style={{width:240,height:240,margin:5,backgroundColor:"black"}}
+           ref={this.localVideoref}
+           autoPlay> </video>
 
-           <video
+          <video
            style={{width:240,height:240,margin:5,backgroundColor:"black"}}
             ref={this.remoteVideoref}
-             autoPlay></video>
+             autoPlay> </video>
 
              <button onClick={this.createOffer}>Offer</button>
              <button onClick={this.createAnswer}>Answer</button>
