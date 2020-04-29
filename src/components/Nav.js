@@ -17,7 +17,7 @@ export default class Nav extends Component {
       {/*  <li> <i class="material-icons silver-text">notifications</i></li>   */} 
      <li><b style={{margin:"10px"}}>Demo</b></li>
      <li class=" collection-item avatar">
-      <img src ="./images/pi.png" width="45px" height="45px"  class="circle" style={{marginRight:"60px",marginTop:'8px'}}/>
+      <img src ="./images/pi.png" width="45px" height="45px"  class="circle" style={{marginRight:"60px"}}/>
       </li>       
                                 
       </ul>
